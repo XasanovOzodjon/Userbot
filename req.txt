@@ -1,0 +1,8 @@
+psycopg2-binary==2.9.11
+pyaes==1.6.1
+pyasn1==0.6.2
+python-decouple==3.8
+rsa==4.9.1
+SQLAlchemy==2.0.46
+Telethon==1.42.0
+typing_extensions==4.15.0
