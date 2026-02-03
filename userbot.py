@@ -8,6 +8,7 @@ from snake import setup as snake_setup
 from magictext import setup as magictext_setup
 from magic import setup as magic_setup
 from saveimg import setup as saveimg_setup
+from tracker import setup as tracker_setup
 api_id = config("API_ID", cast=int)
 api_hash = config("API_HASH")
 
@@ -18,6 +19,7 @@ type_setup(client)
 snake_setup(client)
 magictext_setup(client)
 magic_setup(client)
+tracker_setup(client)
 saveimg_setup(client)
 # async def save_messages():
 #     one_month_ago = datetime.now(timezone.utc) - timedelta(days=30)
